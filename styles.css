@@ -131,7 +131,7 @@ body {
     letter-spacing: -0.2px;
 }
 /* buttons */
-.main-premium-box button {
+.buttons button {
     width: 333px;
     height: 61px;
     border-radius: 12px;
@@ -143,27 +143,28 @@ body {
     border: none;
     cursor: pointer;
 }
-.main-premium-box button:last-of-type  {
+.buttons button:last-of-type  {
     margin-top: 16px;
     background-color: #fcfaf9;
     color: #191826;
 }
-.main-premium-box button:hover {
+.buttons button:hover {
     background-color: #66e2dc;
 }
-.main-premium-box button:last-of-type:hover {
+.buttons button:last-of-type:hover {
     background-color: #ffb964;
 }
-.main-premium-box h5 {
+.buttons span {
     font-size: 18px;
     font-weight: 700;
     line-height: 32px;
     letter-spacing: -0.18px;
+    margin-bottom: 0;
 }
-.first-h5 {
+.first-btn-p {
     color:#fcfaf9;
 }
-.last-h5 {
+.last-btn-p {
     color: #191826;
 }
 
@@ -270,7 +271,7 @@ svg:hover path {
     .premuim-cost {
         margin-bottom: 32px;
     }
-    .main-premium-box button {
+    .buttons button {
         width: 296px;
     }
     .footer {
